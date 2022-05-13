@@ -7,16 +7,22 @@ body {
 }
 
 .container {
-  width: 85%;
+  width: 88%;
   height: 580px;
   display: flex;
   gap: 20px;
 }
 
 .image {
-  border-radius: 100px;
+  border-radius: 80px;
   flex-grow: 1;
   background-size: cover;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+.grow {
+  flex-grow: 6;
 }
 
 #first {
